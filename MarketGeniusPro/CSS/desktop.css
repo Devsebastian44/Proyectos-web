@@ -1,0 +1,351 @@
+* {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    background-color: #000115;
+}
+
+.Fondo {
+    background-image: url(../Img/Fondo.png);
+    color: white;
+    height: 630px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.Info {
+    display: flex;
+    width: 80%;
+    margin-left: 170px;
+    opacity: .99;
+    font-size: 19px;
+}
+
+.descripción {
+    margin-top: 12rem;
+    flex-direction: row;
+    width: 76%;
+}
+
+h1 {
+    color: rgb(255, 15, 123);
+    text-decoration: none;
+}
+
+.Social {
+    margin-top: 10px;
+}
+
+.Social a {
+    position: relative; /* Necesario para el pseudo-elemento ::after en el span */
+    text-decoration: none;
+    color: white;
+}
+
+.Social a span {
+    position: relative; /* Necesario para posicionar el pseudo-elemento ::after solo en el texto */
+}
+
+.Social a span::after {
+    content: ''; /* Pseudo-elemento vacío utilizado para el borde */
+    position: absolute;
+    left: 50%; /* Coloca el borde en el centro del texto */
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.4s ease, left 0.4s ease; /* Transición suave para el borde */
+}
+
+.Social a span:hover::after {
+    width: 100%; /* Al pasar el cursor, el borde se expande por todo el texto */
+    left: 0; /* Mueve el borde a la izquierda para cubrir todo el texto */
+}
+
+.Social i {
+	border-radius: 50%;
+	padding: 7px;
+}
+
+
+.form-container {
+    margin-top: 6rem;
+    height: 410px;
+    width: 400px;
+    background: linear-gradient(#000115, #000115) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 30px 22px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #717171;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 90%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 90%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 50%;
+    background: #313131;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+
+
+  .form-status-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Oculto por defecto */
+}
+
+.Cursos {
+  color: white;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
+  text-align: center;
+  justify-content: center;
+}
+
+.Imagen {
+  border-radius: 9px 9px 0 0;
+  width: 100%;
+  height: 170px;
+}
+
+.card {
+  margin-right: 150px;
+  margin-bottom: 150px;
+  position: relative;
+  width: 410px;
+  height: 490px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 420px;
+  height: 540px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card p:not(.heading) {
+  font-size: 14px;
+}
+
+.card p:last-child {
+  color: white;
+  font-weight: 600;
+}
+
+.card:hover::after {
+  filter: blur(30px);
+}
+
+.card:hover::before {
+  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+}
+
+.Pagina {
+  position: absolute;
+  bottom: 10px;
+  width: 60px;
+  padding: 9px 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: .5rem;
+  background-color: rgb(255, 15, 123);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: auto; /* Empuja esta caja al final */
+}
+
+.Pagina:hover {
+  transform: scale(1.1); /* Aumenta el tamaño */
+}
+
+.Pagina a {
+  text-decoration: none;
+  color: white;
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #000;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.faq-question {
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:hover {
+  color: #007BFF;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 16px;
+  display: none;
+}
+
+.faq-answer.active {
+  display: block;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+  transform: rotate(90deg);
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+}

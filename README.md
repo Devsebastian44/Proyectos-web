@@ -24,3 +24,9 @@ Sitio web sobre ciberseguridad y hacking ético. https://bl4ck44.github.io/
 ## FLEX
 
 ![flex](Img/flex.png)
+
+## MarketGeniusPro
+
+Sitio Web sobre cursos como Programación, Ciberseguridad, Diseño Gráfico, Ofimática. https://marketgeniuspro.netlify.app/
+
+![MarketGeniusPro](Img/MarketGeniusPro.png)
