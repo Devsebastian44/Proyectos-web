@@ -25,6 +25,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>MarketGeniusPro</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SN98MEBT5D"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SN98MEBT5D');
+    </script>
 </head>
 <body>
     <div class="Fondo">
@@ -56,7 +64,7 @@
             </div>
         </div>
     </div>
-    <div class="Cursos">
+    <div class="Cursos" data-aos="fade-up">
         <div class="card">
             <div class="tools">
               <div class="circle">
@@ -174,8 +182,14 @@
             Sí, contamos con un equipo de soporte disponible para resolver todas tus dudas relacionadas con el curso.
           </div>
         </div>
-    
       </div>
-        <script src="JS/script.js"></script>
+      <script src="JS/script.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init();
+        </script>
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/48751545.js"></script>
+        <!-- End of HubSpot Embed Code -->
 </body>
 </html>
