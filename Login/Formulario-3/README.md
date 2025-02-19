@@ -2,7 +2,13 @@
 
 Este es un login con base de datos que registra los usuarios nuevos y verifica a los usuarios registrados. 
 
-Para correr el servidor en JS importamos primero la base de datos en MySQL luego corremos el servidor con Node.js
+Primero instalamos las dependencias
+
+```javascript
+npm install express mysql bcrypt jsonwebtoken body-parser dotenv
+```
+
+Luego para correr el servidor en JS importamos primero la base de datos en MySQL luego corremos el servidor con Node.js
 
 
 ```javascript
