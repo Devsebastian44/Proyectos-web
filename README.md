@@ -1,6 +1,6 @@
 Bienvenidos aquí encontraran todos los proyectos en los cuales he trabajado.
 
-## POrtafolio
+## Portafolio
 
 ![Portafolio](Img/Portafolio.png)
 
