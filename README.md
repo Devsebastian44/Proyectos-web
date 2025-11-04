@@ -4,35 +4,15 @@ Bienvenidos aquí encontraran todos los proyectos en los cuales he trabajado.
 
 ![Portafolio](Img/Portafolio.png)
 
-## Login
+## Blog - Ciberseguridad
 
-Son formularios de inicio de sesión.
+Sitio web sobre ciberseguridad y hacking ético. https://devsebastian44-blog.netlify.app/
 
-![Formulario-1](Img/Formulario-1.png)
-
-![Formulario-2](Img/Formulario-2.png)
-
-![Formulario-3](Img/Formulario-3.png)
+![castimotors](Img/Blog.png)
 
 
-## Castimotors
+## MarketGenius
 
-Sitio web sobre mecanica. https://castimotors.github.io/
+Sitio Web sobre cursos como Programación y Ciberseguridad. https://marketgeniuseducation.netlify.app/
 
-![castimotors](Img/castimotors.png)
-
-## bl4ck44
-
-Sitio web sobre ciberseguridad y hacking ético. https://bl4ck44.github.io/
-
-![castimotors](Img/bl4ck44.png)
-
-## FLEX
-
-![flex](Img/flex.png)
-
-## MarketGeniusPro
-
-Sitio Web sobre cursos como Programación, Ciberseguridad, Diseño Gráfico, Ofimática. https://marketgeniuspro.netlify.app/
-
-![MarketGeniusPro](Img/MarketGeniusPro.png)
+![MarketGeniusPro](Img/MarketGenius.png)

@@ -1,0 +1,249 @@
+*{
+    color: #06283D;
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+outline: none;
+box-shadow: none;
+border: 0;
+}
+
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #0d6efd;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.middle-bar{
+    margin-top: 0px;
+
+}
+.navbar-toggler .top-bar{
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+    opacity: 0;
+}
+.navbar-toggler .bottom-bar{
+    margin: 0;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+.bg{
+    background-image: url("images/portada.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.bg h1{
+   padding-top: 100px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 44px;
+
+}
+.bg p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.bg button{
+    color: aliceblue;
+}
+
+.right-btn{
+    margin-left: 20px;
+    
+}
+.navbar-brand{
+    font-size: 40px !important;
+}
+.nav-link{
+    color: #06283D !important;
+
+}
+.nav-link:hover{
+   color: #a1a6a8 !important;
+}
+h2{
+   
+    font-size: 34px !important;
+    font-weight: 700 !important;
+    padding-bottom: 20px !important;
+    color: #0d6efd;
+}
+h3{
+    color: #40a4e7;
+    font-size: 26px !important;
+}
+
+.my-col-1{
+    background-color: #ebf9ff;
+    border-radius: 5px;
+}
+.my-col-1 p{
+    color: #06283D;
+    font-size: 18px;
+
+}
+.my-col-1:hover{
+    background-color: #e4e9ec;
+    border-radius: 5px;
+}
+
+
+.my-h2 h2{
+    color: #40a4e7;;
+}
+.course{
+    background-color: #ebf9ff;
+    padding: 30px;
+  
+}
+footer{
+    background-color: #ebf9ff;
+    width: 100%;
+}
+
+/* ==== CONTACT FORM SECTION ==== */
+#contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-form .form-container {
+  background-color: #0d6efd; /* azul igual a los botones */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(13, 110, 253, 0.4);
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  transition: all 0.3s ease;
+}
+
+#contact-form .form-container:hover {
+  box-shadow: 0 0 30px rgba(13, 110, 253, 0.6);
+}
+
+#contact-form h5 {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#contact-form label {
+  color: #ffffff;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: #0b3ebd;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #ffffff;
+  background-color: #0c46d1;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+#contact-form button {
+  background-color: #ffffff;
+  color: #0d6efd;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #e7f0ff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+
+.contact-img {
+  width: 100%;
+  max-width: 280px; /* ajusta este valor al tamaño exacto del Contact Us */
+  height: auto;
+}
+
+
+.responsive-img {
+  width: 100%;
+  max-width: 650px; /* tamaño máximo en pantallas grandes */
+  height: auto;
+}
+
+
+@media screen and (max-width: 600px){
+    .my-col-1{
+        max-width: 80%;
+        background-color: #ebf9ff;
+        border-radius: 5px;
+        margin: 20px auto!important;    
+    } 
+    
+}
+
