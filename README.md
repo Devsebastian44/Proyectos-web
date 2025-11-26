@@ -31,8 +31,7 @@ Incluye artículos técnicos, tutoriales y recursos educativos.
 
 ### 🎓 MarketGenius
 
-Plataforma educativa con cursos sobre programación, ciberseguridad y herramientas prácticas.  
-Diseñada para facilitar el aprendizaje técnico desde cero.
+Plataforma educativa con cursos sobre programación, ciberseguridad y herramientas prácticas. Diseñada para facilitar el aprendizaje técnico desde cero.
 
 🌐 [Visitar MarketGenius](https://marketgeniuseducation.netlify.app)
 
@@ -52,5 +51,4 @@ Si deseas colaborar, hacer sugerencias o simplemente conversar sobre tecnología
 
 ## 📜 Licencia
 
-Este portafolio está bajo la licencia MIT.  
-Puedes usar los recursos libremente con fines educativos y de investigación.
+Este portafolio está bajo la licencia MIT. Puedes usar los recursos libremente con fines educativos y de investigación.
